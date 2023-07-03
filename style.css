@@ -41,6 +41,7 @@ a {
 
 h1 {
   color: #004a2f;
+  font-size: 48px;
 }
 
 .left {
@@ -71,17 +72,21 @@ button {
 h2 {
   text-align: center;
   color: white;
+  font-size: 36px;
+  margin-bottom: 60px;
 }
 
 .images > img {
   max-width: 200px;
   height: 150px;
+  border: 5px solid white;
+  border-radius: 10px;
 }
 
 .section2 {
   background-color: #004a2f;
   padding-top: 20px;
-  margin: 0 300px;
+  padding-bottom: 40px;
 }
 
 .text {
@@ -97,4 +102,11 @@ h2 {
 .text {
   text-align: center;
   padding-top: 15px;
+}
+
+.section3 > p {
+  font-style: italic;
+  font-size: 36px;
+  color: #004a2f;
+  text-align: center;
 }
